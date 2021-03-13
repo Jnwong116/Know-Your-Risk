@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -11,22 +11,22 @@
         android:layout_width="123dp"
         android:layout_height="51dp"
         android:text="Please answer "
-        tools:layout_editor_absoluteX="144dp"
-        tools:layout_editor_absoluteY="166dp" />
+        android:translationX="125"
+        android:translationY="200" />
 
     <AutoCompleteTextView
         android:id="@+id/autoCompleteTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="AutoCompleteTextView"
-        tools:layout_editor_absoluteX="108dp"
-        tools:layout_editor_absoluteY="376dp" />
+        android:translationX="125"
+        android:translationY="300" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Next"
-        tools:layout_editor_absoluteX="159dp"
-        tools:layout_editor_absoluteY="504dp" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:translationX="150"
+        android:translationY="450" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
