@@ -10,39 +10,44 @@
         android:id="@+id/imageView2"
         android:layout_width="163dp"
         android:layout_height="143dp"
-        app:srcCompat="@drawable/covid"
-        tools:layout_editor_absoluteX="-10dp"
-        tools:layout_editor_absoluteY="0dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/covid" />
 
     <TextView
         android:id="@+id/WelcomeMessage"
         android:layout_width="228dp"
         android:layout_height="108dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="28dp"
         android:text="@string/WelcomeMessage"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
-        tools:layout_editor_absoluteY="25dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
         android:text="@string/RecommendedActivitiesText"
         android:textColor="#000000"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="106dp"
-        tools:layout_editor_absoluteY="184dp" />
+        app:layout_constraintTop_toBottomOf="@+id/WelcomeMessage"
+        tools:layout_editor_absoluteX="106dp" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
         android:text="@string/AvoidedActivitiesText"
         android:textColor="@color/black"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="134dp"
-        tools:layout_editor_absoluteY="367dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        tools:layout_editor_absoluteX="134dp" />
 
     <Button
         android:id="@+id/additionalinfobutton"
