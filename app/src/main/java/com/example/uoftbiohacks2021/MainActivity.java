@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         else {
             //Successful login
             currentUser.setContext(getApplicationContext());
-            Intent intent = new Intent(this, );
+            Intent intent = new Intent(this, MainPage.class);
             intent.putExtra("currentUser", currentUser);
             startActivity(intent);
         }
