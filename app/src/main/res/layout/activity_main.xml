@@ -10,26 +10,31 @@
         android:id="@+id/registerButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="84dp"
+        android:layout_marginRight="84dp"
         android:text="Register"
         app:backgroundTint="#FF0000"
-        tools:layout_editor_absoluteX="199dp"
-        tools:layout_editor_absoluteY="585dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/logInButton2" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="297dp"
-        android:layout_height="47dp"
+        android:layout_width="290dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
         android:text="Welcome to ______! Your personal assistant to staying safe during the COVID-19 pandemic. Start by registering or logging in!"
-        tools:layout_editor_absoluteX="57dp"
-        tools:layout_editor_absoluteY="327dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="@string/username"
         android:inputType="textPersonName"
-        android:text="Username"
         tools:layout_editor_absoluteX="109dp"
         tools:layout_editor_absoluteY="418dp" />
 
@@ -47,16 +52,19 @@
         android:id="@+id/logInButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
         android:text="Log In"
         app:backgroundTint="#FF0000"
-        tools:layout_editor_absoluteX="97dp"
+        app:layout_constraintEnd_toStartOf="@+id/registerButton2"
         tools:layout_editor_absoluteY="585dp" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="289dp"
-        android:layout_height="360dp"
+        android:layout_width="304dp"
+        android:layout_height="285dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/covid"
-        tools:layout_editor_absoluteX="57dp"
-        tools:layout_editor_absoluteY="6dp" />
+        tools:layout_editor_absoluteX="53dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
