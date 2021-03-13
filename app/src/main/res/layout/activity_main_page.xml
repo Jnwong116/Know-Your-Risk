@@ -18,10 +18,12 @@
         android:id="@+id/WelcomeMessage"
         android:layout_width="228dp"
         android:layout_height="108dp"
+
         android:layout_marginStart="9dp"
         android:layout_marginLeft="9dp"
         android:layout_marginTop="28dp"
         android:text="@string/WelcomeMessage"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
