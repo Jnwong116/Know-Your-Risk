@@ -1,32 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".FactorsQuestions">
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="123dp"
-        android:layout_height="51dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="208dp"
         android:text="Please answer "
-        android:translationX="125"
-        android:translationY="200" />
+        app:layout_constraintBottom_toTopOf="@+id/autoCompleteTextView"
+        tools:layout_editor_absoluteX="158dp" />
 
     <AutoCompleteTextView
         android:id="@+id/autoCompleteTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
         android:text="AutoCompleteTextView"
-        android:translationX="125"
-        android:translationY="300" />
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        tools:layout_editor_absoluteX="108dp" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Next"
-        android:translationX="150"
-        android:translationY="450" />
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="498dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">UofTBioHacks2021</string>
+    <string name="please_answer_the_following_questions_to_determine_your_risk_for_covid_19_if_none_of_the_responses_corresponds_to_your_situation_choose_the_most_appropriate_response">Please answer the following questions to determine your risk for COVID-19. If none of the responses corresponds to your situation, choose the most appropriate response</string>
+    <string name="next">Next</string>
 </resources>

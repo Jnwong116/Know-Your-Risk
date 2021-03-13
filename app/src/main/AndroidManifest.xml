@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.UofTBioHacks2021">
-        <activity android:name=".FactorsQuestions"></activity>
+        <activity android:name=".QuestionsLeadingPage"></activity>
+        <activity android:name=".FactorsQuestions" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
