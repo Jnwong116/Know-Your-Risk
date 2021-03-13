@@ -2,4 +2,11 @@
     <string name="app_name">UofTBioHacks2021</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
+    <string name="WelcomeMessage">Hello \"username\"! Here are some recommended activities. Be sure to let us know if there are any changes to your health status.</string>
+    <string name="RecommendedActivitiesText">Recommended Activities</string>
+    <string name="AvoidedActivitiesText">Avoided Activities</string>
+    <string name="AdditionalInfoText">Additional Information</string>
+    <string name="HealthUpdatesText">Update My Health Status</string>
+    <string name="RecommendedActivities">Retreive from data</string>
+    <string name="AvoidedActivities">Retreive from data</string>
 </resources>
