@@ -6,25 +6,60 @@
     android:layout_height="match_parent"
     tools:context=".additional_information">
 
-    <TextView
-        android:id="@+id/PrecautionTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
-        android:text="@string/PrecautionText"
-        android:textColor="@color/black"
-        android:textSize="24sp"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="74dp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
 
-    <TextView
-        android:id="@+id/PrecautionContent"
-        android:layout_width="297dp"
-        android:layout_height="355dp"
-        android:layout_marginTop="28dp"
-        android:text="@string/PrecautionContent"
-        android:textSize="18sp"
-        app:layout_constraintTop_toBottomOf="@+id/PrecautionTitle"
-        tools:layout_editor_absoluteX="57dp" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="729dp"
+            tools:layout_editor_absoluteY="1dp">
+
+            <TextView
+                android:id="@+id/precautionContent"
+                android:layout_width="297dp"
+                android:layout_height="355dp"
+                android:text="@string/PrecautionContent"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="57dp"
+                tools:layout_editor_absoluteY="131dp" />
+
+            <TextView
+                android:id="@+id/precautionTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="72dp"
+                android:layout_marginLeft="72dp"
+                android:layout_marginTop="68dp"
+                android:text="@string/PrecautionText"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/MentalHealthTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="72dp"
+                android:text="@string/MentalHealthText"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                app:layout_constraintTop_toBottomOf="@+id/precautionContent"
+                tools:layout_editor_absoluteX="12dp" />
+
+            <TextView
+                android:id="@+id/MentalHealthContent"
+                android:layout_width="303dp"
+                android:layout_height="508dp"
+                android:layout_marginTop="36dp"
+                android:text="@string/MentalHealthContent"
+                android:textSize="20sp"
+                app:layout_constraintTop_toBottomOf="@+id/MentalHealthTitle"
+                tools:layout_editor_absoluteX="57dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
