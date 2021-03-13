@@ -5,4 +5,18 @@
     <string name="agetext">Please specify your age in years</string>
     <string name="exercise">Please select the option that best describes your exercise habits</string>
     <string name="excerciseprompt">Exercise</string>
+    <string name="factorsquestion">Please enter any medical conditions you have been diagnosed with and select the appropriate choice</string>
+    <string name="factorsprompt">Condition</string>
+    <string name="cancer">Cancer</string>
+    <string name="CKD">Chronic kidney disease</string>
+    <string name="COPD">Chronic Obstructive Pulmonary Disease</string>
+    <string name="Down">Down Syndrome</string>
+    <string name="Heart">Heart conditions</string>
+    <string name="Immunocompromised">Immunocompromised</string>
+    <string name="Obe">Obesity (BMI between 30-40)</string>
+    <string name="severeObe">Obesity (BMI>40)</string>
+    <string name="Preg">Pregnancy</string>
+    <string name="Sickle">Sickle cell anemia</string>
+    <string name="smoke">Smoking</string>
+    <string name="diabete">Type 2 diabetes mellitus (pancreatic)</string>
 </resources>

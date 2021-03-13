@@ -32,3 +32,4 @@ public class Exercise extends AppCompatActivity {
         s.setAdapter(adapter);
     }
 }
+// add what each of the spinner options do, from 5 to 1
