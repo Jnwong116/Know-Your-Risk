@@ -21,7 +21,6 @@ public class Exercise extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exercise);
-        //this is a yikes please change it
         String[] arraySpinner = new String[] {
                 "Extremely Sedentary", "Sedentary", "Average", "Active", "Extremely Active"
         };
