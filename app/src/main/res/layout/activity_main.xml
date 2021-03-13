@@ -43,14 +43,6 @@
         tools:layout_editor_absoluteX="109dp"
         tools:layout_editor_absoluteY="485dp" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="249dp"
-        android:layout_height="336dp"
-        app:srcCompat="@drawable/covid"
-        tools:layout_editor_absoluteX="81dp"
-        tools:layout_editor_absoluteY="38dp" />
-
     <Button
         android:id="@+id/logInButton2"
         android:layout_width="wrap_content"
@@ -59,4 +51,12 @@
         app:backgroundTint="#FF0000"
         tools:layout_editor_absoluteX="97dp"
         tools:layout_editor_absoluteY="585dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="289dp"
+        android:layout_height="360dp"
+        app:srcCompat="@drawable/covid"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="6dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
