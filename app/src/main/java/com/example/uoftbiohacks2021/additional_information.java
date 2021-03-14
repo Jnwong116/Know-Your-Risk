@@ -4,27 +4,31 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 
 import com.example.uoftbiohacks2021.logic.User;
+import com.example.uoftbiohacks2021.logic.UserWriter;
 
-public class QuestionsLeadingPage extends AppCompatActivity {
+public class additional_information extends AppCompatActivity {
 
     private User currentUser;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_questions_leading_page);
+        setContentView(R.layout.activity_additional_information);
 
         Intent intent = getIntent();
         currentUser = (User) intent.getSerializableExtra("currentUser");
         currentUser.setContext(getApplicationContext());
+
     }
 
-    public void next(View view) {
-        Intent intent = new Intent(this, Age.class);
-        intent.putExtra("currentUser", currentUser);
-        startActivity(intent);
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        Intent back = new Intent(this, MainPage.class);
+        back.putExtra("currentUser", currentUser);
+        startActivity(back);
+        return true;
     }
 }
