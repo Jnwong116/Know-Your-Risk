@@ -9,7 +9,7 @@
     <string name="HealthUpdatesText">Update My Health Status</string>
     <string name="RecommendedActivities">Retreive from data</string>
     <string name="AvoidedActivities">Retreive from data</string>
-    <string name="PrecautionText">Ways to Protect Yourself</string>
+    <string name="PrecautionText">Ways to Protect Yourself and Others</string>
     <string name="PrecautionContent">
         Clean your hands often using soap and water, or alcohol.
         <br>Maintain a safe distance from anyone who is coughing or sneezing. </br>
@@ -47,4 +47,10 @@
     <string name="diabete">Type 2 diabetes mellitus (pancreatic)</string>
     <string name="conditionAdd">Add</string>
     <string name="conditionComplete">Done</string>
+    <string name="outbreakNearMename">Click for Outbreaks Near Me:</string>
+    <string name="OutbreaksLInk">https://outbreaksnearme.org/ca/en-CA</string>
+    <string name="hyperlink">https://outbreaksnearme.org/ca/en-CA</string>
+    <string name="moreInfo">For More Resources, Check Out:</string>
+    <string name="moreInfoLinks">https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/guidance-documents.html
+        <br></br>https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public</string>
 </resources>
