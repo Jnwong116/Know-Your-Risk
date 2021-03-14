@@ -32,6 +32,7 @@ public class Age extends AppCompatActivity {
         Intent intent = getIntent();
         currentUser = (User) intent.getSerializableExtra("currentUser");
         currentUser.setContext(getApplicationContext());
+        currentUser.resetRiskFactor();
     }
 
     public void next(View view) {

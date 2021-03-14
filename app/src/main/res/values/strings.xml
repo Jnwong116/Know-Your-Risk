@@ -26,7 +26,6 @@
         <br>Make time to unwind. Try to do some other activities you enjoy.</br>
         <br>Connect with others by phone, video calls, and other means.</br></string>
     <string name="RegistrationMessage">To register, enter a username and password that you will remember. You will create a unique profile which is saved under your username.</string>
-    <string name="app_name">UofTBioHacks2021</string>
     <string name="please_answer_the_following_questions_to_determine_your_risk_for_covid_19_if_none_of_the_responses_corresponds_to_your_situation_choose_the_most_appropriate_response">Please answer the following questions to determine your risk for COVID-19. If none of the responses corresponds to your situation, choose the most appropriate response</string>
     <string name="next">Next</string>
     <string name="agetext">Please select your age bracket</string>

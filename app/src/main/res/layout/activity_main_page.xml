@@ -102,4 +102,14 @@
         android:text="@string/AvoidedActivities"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/riskFactor"
+        android:layout_width="0dp"
+        android:layout_height="5dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/WelcomeMessage" />
 </androidx.constraintlayout.widget.ConstraintLayout>
