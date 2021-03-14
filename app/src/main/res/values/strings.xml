@@ -9,4 +9,21 @@
     <string name="HealthUpdatesText">Update My Health Status</string>
     <string name="RecommendedActivities">Retreive from data</string>
     <string name="AvoidedActivities">Retreive from data</string>
+    <string name="PrecautionText">Ways to Protect Yourself</string>
+    <string name="PrecautionContent">
+        Clean your hands often using soap and water, or alcohol.
+        <br>Maintain a safe distance from anyone who is coughing or sneezing. </br>
+        <br>Wear a mask when physical distancing is not possible. </br>
+        <br>Don’t touch your eyes, nose or mouth. </br>
+        <br>Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze. </br>
+        <br>Stay home if you feel unwell. </br>
+        <br>If you have a fever, cough and difficulty breathing, seek medical attention</br></string>
+    <string name="MentalHealthText">Ways to Care for Your Mental Health</string>
+    <string name="MentalHealthContent">
+        Take a break from the news and social media - these can stress you out.
+        <br>Take care of your body, whether that be exercising or eating well.</br>
+        <br>Get plenty of sleep. Avoid excessive alcohol, tobacco, and substance use.</br>
+        <br>Make time to unwind. Try to do some other activities you enjoy.</br>
+        <br>Connect with others by phone, video calls, and other means.</br></string>
+    <string name="RegistrationMessage">To register, enter a username and password that you will remember. You will create a unique profile which is saved under your username.</string>
 </resources>
