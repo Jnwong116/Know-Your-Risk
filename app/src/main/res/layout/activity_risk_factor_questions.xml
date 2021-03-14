@@ -23,6 +23,7 @@
         android:layout_marginBottom="64dp"
         android:onClick="addCondition"
         android:text="@string/conditionAdd"
+        app:backgroundTint="#FF0000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -47,6 +48,7 @@
         android:layout_marginBottom="64dp"
         android:onClick="next"
         android:text="@string/conditionComplete"
+        app:backgroundTint="#FF0000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 

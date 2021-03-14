@@ -20,8 +20,6 @@ public class User extends Observable implements Serializable {
         this.password = password;
         this.riskFactor = 0;
         this.conditions = new ArrayList<>();
-        this.age = 0;
-        this.exercise = 0;
     }
 
     public void signalChanges() {
