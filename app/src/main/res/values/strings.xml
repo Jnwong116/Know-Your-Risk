@@ -25,4 +25,5 @@
         <br>Get plenty of sleep. Avoid excessive alcohol, tobacco, and substance use.</br>
         <br>Make time to unwind. Try to do some other activities you enjoy.</br>
         <br>Connect with others by phone, video calls, and other means.</br></string>
+    <string name="RegistrationMessage">To register, enter a username and password that you will remember. You will create a unique profile which is saved under your username.</string>
 </resources>
