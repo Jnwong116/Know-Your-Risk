@@ -1,12 +1,22 @@
 # Know Your Risk
-A Android app that 
-## Motivation
-In an age where most of our media consumption is online, it is important to recognize the danger of recommendation algorithms when it comes to the news. Too often, we end up reading articles upon articles which all share the same perspective, leading to the proliferation of hyperpartisanship in society. Bye Bye Bias was designed to help readers easily consider similar and opposing viewpoints on the same issue by providing easy access to related articles. We hope Bye Bye Bias can encourage people to become more informed about bias in the media so that they can fight it accordingly.
-## What Does it Do?
-Bye Bye Bias is a chrome extension which can be used on any news article online. It provides two options for the user: Similar or Opposing. By clicking the respective button, Bye Bye Bias generates up to ten articles on the same topic from news sources which either share or differ in perspective/bias. Clicking on an article link will then bring the user to a new tab, allowing a seamless transition from one article to the next.
-## How We Built it
-We used HTML, CSS, and Javascript for the front end to achieve a look that is both simple and clear. We incorporated the Custom Search JSON API to search Google for articles and filtered the results based on the leanings of the current active tab. 
-## Challenges We Faced
-None of us had experience creating chrome extensions, so we all had to learn the new framework and components required from scratch. We also had trouble figuring out how to send data between the background and script files. For three of us, it was our first hackathon. 
-## Future Directions
-To improve our extension, we can include functionality to scrape the current article for information about what sort of bias is present and possible misinformation in the article. It would also be interesting to be able to categorize articles more specifically than just "Similar" or "Opposing". 
+An intuitive smartphone app that assesses your risk for COVID-19 complications and advises you on safe practices during the COVID-19 pandemic.
+## Inspiration
+The COVID-19 pandemic has impacted many people’s daily lives - we conduct most of our lives now at home and receive information from the media about how to stay safe. However, populations such as the elderly are unable to easily access information about COVID-19. Our solution to this problem was to create a simple smartphone application to predict one’s risk for COVID-19 complications and to recommend safe practices.
+
+## What it does
+This application takes into account one’s lifestyle information - age, exercise, and medical conditions to determine one’s risk for COVID-19 complications. It also advises on how to stay well both mentally and physically, as well as recommends activities of appropriate risk.
+
+## How we built it
+We built this using Android Studio for the frontend and Java for the backend.
+
+## Challenges we ran into
+Only one of us had experience with coding before so we all had to learn how to use Android Studio. One of the main issues we had was with the UI, making it functional and look nice at the same time. 
+
+## Accomplishments that we're proud of
+We are proud of completing this project with little to no prior experience using Android Studio within the strict timeframe of 24 hours. Through long hours of googling and troubleshooting, we managed to ship out an app that looks good and most importantly, does its job. 
+
+## What we learned
+One of the biggest takeaways from this project is understanding how to utilize GitHub and Android Studio while maintaining team cohesion. One problem that we overcame was with regards to splitting up jobs in a way so that we didn’t overwrite each other's work.
+
+## What's next for Know Your Risk
+In the future, we'd like to try adding more features, such as advisories based on location and the number of cases in that area, as well as adding notifications based on the government's announcements. 
