@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">UofTBioHacks2021</string>
+    <string name="app_name">Know Your Risk</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
     <string name="WelcomeMessage">Hello \"username\"! Here are some recommended activities. Be sure to let us know if there are any changes to your health status.</string>
