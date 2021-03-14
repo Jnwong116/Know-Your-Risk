@@ -1,4 +1,4 @@
-package com.example.uoftbiohacks2021;
+package com.example.uoftbiohacks2021.logic;
 
 import android.content.Context;
 import com.example.uoftbiohacks2021.logic.User;

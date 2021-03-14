@@ -23,7 +23,8 @@ public class MainActivity extends AppCompatActivity {
      * Launch Registration page
      */
     public void registerScreen(View view) {
-        Intent intent = new Intent(this, )
+        Intent intent = new Intent(this, registration.class);
+        startActivity(intent);
     }
 
     /**

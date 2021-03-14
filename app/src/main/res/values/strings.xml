@@ -26,4 +26,25 @@
         <br>Make time to unwind. Try to do some other activities you enjoy.</br>
         <br>Connect with others by phone, video calls, and other means.</br></string>
     <string name="RegistrationMessage">To register, enter a username and password that you will remember. You will create a unique profile which is saved under your username.</string>
+    <string name="please_answer_the_following_questions_to_determine_your_risk_for_covid_19_if_none_of_the_responses_corresponds_to_your_situation_choose_the_most_appropriate_response">Please answer the following questions to determine your risk for COVID-19. If none of the responses corresponds to your situation, choose the most appropriate response</string>
+    <string name="next">Next</string>
+    <string name="agetext">Please select your age bracket</string>
+    <string name="exercise">Please select the option that best describes your exercise habits</string>
+    <string name="excerciseprompt">Exercise</string>
+    <string name="factorsquestion">Please enter any medical conditions you have been diagnosed with and select the appropriate choice</string>
+    <string name="factorsprompt">Condition</string>
+    <string name="cancer">Cancer</string>
+    <string name="CKD">Chronic kidney disease</string>
+    <string name="COPD">Chronic Obstructive Pulmonary Disease</string>
+    <string name="Down">Down Syndrome</string>
+    <string name="Heart">Heart conditions</string>
+    <string name="Immunocompromised">Immunocompromised</string>
+    <string name="Obe">Obesity (BMI between 30 to 40)</string>
+    <string name="severeObe">Obesity (BMI>40)</string>
+    <string name="Preg">Pregnancy</string>
+    <string name="Sickle">Sickle cell anemia</string>
+    <string name="smoke">Smoking</string>
+    <string name="diabete">Type 2 diabetes mellitus (pancreatic)</string>
+    <string name="conditionAdd">Add</string>
+    <string name="conditionComplete">Done</string>
 </resources>

@@ -13,10 +13,11 @@
         android:layout_marginStart="144dp"
         android:layout_marginLeft="144dp"
         android:layout_marginTop="40dp"
+        android:onClick="registerUser"
         android:text="Register"
         app:backgroundTint="#FF0000"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword4" />
+        app:layout_constraintTop_toBottomOf="@+id/registerPassword" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -30,20 +31,20 @@
         app:srcCompat="@drawable/covid" />
 
     <EditText
-        android:id="@+id/editTextTextPassword4"
+        android:id="@+id/registerPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
         android:layout_marginLeft="100dp"
         android:layout_marginTop="16dp"
         android:ems="10"
-        android:hint="Password"
+        android:hint="@string/password"
         android:inputType="textPassword"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
+        app:layout_constraintTop_toBottomOf="@+id/registerUsername" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/registerUsername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"

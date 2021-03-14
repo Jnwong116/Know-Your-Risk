@@ -6,6 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".additional_information">
 
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/covid" />
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -19,10 +27,10 @@
 
             <TextView
                 android:id="@+id/precautionContent"
-                android:layout_width="297dp"
-                android:layout_height="355dp"
-                android:layout_marginStart="56dp"
-                android:layout_marginLeft="56dp"
+                android:layout_width="325dp"
+                android:layout_height="380dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="40dp"
                 android:layout_marginTop="36dp"
                 android:text="@string/PrecautionContent"
                 android:textSize="20sp"
@@ -33,9 +41,9 @@
                 android:id="@+id/precautionTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="72dp"
-                android:layout_marginLeft="72dp"
-                android:layout_marginTop="68dp"
+                android:layout_marginStart="64dp"
+                android:layout_marginLeft="64dp"
+                android:layout_marginTop="160dp"
                 android:text="@string/PrecautionText"
                 android:textColor="@color/black"
                 android:textSize="24sp"
@@ -48,7 +56,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
                 android:layout_marginLeft="12dp"
-                android:layout_marginTop="76dp"
+                android:layout_marginTop="32dp"
                 android:text="@string/MentalHealthText"
                 android:textColor="@color/black"
                 android:textSize="24sp"
