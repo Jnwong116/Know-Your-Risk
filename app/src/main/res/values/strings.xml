@@ -4,7 +4,7 @@
     <string name="password">Password</string>
     <string name="WelcomeMessage">Hello \"username\"! Here are some recommended activities. Be sure to let us know if there are any changes to your health status.</string>
     <string name="RecommendedActivitiesText">Recommended Activities</string>
-    <string name="AvoidedActivitiesText">Avoided Activities</string>
+    <string name="AvoidedActivitiesText">Activities to Avoid</string>
     <string name="AdditionalInfoText">Additional Information</string>
     <string name="HealthUpdatesText">Update My Health Status</string>
     <string name="RecommendedActivities">Retreive from data</string>
@@ -47,6 +47,9 @@
     <string name="diabete">Type 2 diabetes mellitus (pancreatic)</string>
     <string name="conditionAdd">Add</string>
     <string name="conditionComplete">Done</string>
+    <string name="lowrisk"><b>low</b> risk</string>
+    <string name="medrisk"><b>medium</b> risk</string>
+    <string name="highrisk"><b>high</b> risk</string>
     <string name="outbreakNearMename">Click for Outbreaks Near Me:</string>
     <string name="OutbreaksLInk">https://outbreaksnearme.org/ca/en-CA</string>
     <string name="hyperlink">https://outbreaksnearme.org/ca/en-CA</string>

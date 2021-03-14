@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.Html;
 import android.view.View;
 import android.widget.TextView;
 
@@ -50,17 +51,17 @@ public class MainPage extends AppCompatActivity {
         String avoid;
 
         if (riskFactor < 8) {
-            risk = "low risk";
+            risk = getString(R.string.lowrisk);
             rec = lowRisk + medRisk;
             avoid = highRisk;
         }
         else if (riskFactor > 20) {
-            risk = "high risk";
+            risk = getString(R.string.highrisk);
             rec = "";
             avoid = lowRisk + medRisk + highRisk;
         }
         else {
-            risk = "medium risk";
+            risk = getString(R.string.medrisk);
             rec = lowRisk;
             avoid = medRisk + highRisk;
         }
