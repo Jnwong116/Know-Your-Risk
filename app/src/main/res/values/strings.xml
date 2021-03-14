@@ -46,4 +46,6 @@
     <string name="Sickle">Sickle cell anemia</string>
     <string name="smoke">Smoking</string>
     <string name="diabete">Type 2 diabetes mellitus (pancreatic)</string>
+    <string name="conditionAdd">Add</string>
+    <string name="conditionComplete">Done</string>
 </resources>

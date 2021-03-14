@@ -48,7 +48,7 @@ public class registration extends AppCompatActivity {
             else {
                 User currentUser = (User) res[0];
                 currentUser.setContext(getApplicationContext());
-                Intent intent = new Intent(this, MainActivity.class);
+                Intent intent = new Intent(this, QuestionsLeadingPage.class);
                 intent.putExtra("currentUser", currentUser);
                 startActivity(intent);
             }
