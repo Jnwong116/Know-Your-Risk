@@ -1,5 +1,5 @@
 # Know Your Risk
-A Android app that 
+An intuitive smartphone app that assesses your risk for COVID-19 complications and advises you on safe practices during the COVID-19 pandemic.
 ## Inspiration
 The COVID-19 pandemic has impacted many people’s daily lives - we conduct most of our lives now at home and receive information from the media about how to stay safe. However, populations such as the elderly are unable to easily access information about COVID-19. Our solution to this problem was to create a simple smartphone application to predict one’s risk for COVID-19 complications and to recommend safe practices.
 
