@@ -51,6 +51,6 @@
     <string name="OutbreaksLInk">https://outbreaksnearme.org/ca/en-CA</string>
     <string name="hyperlink">https://outbreaksnearme.org/ca/en-CA</string>
     <string name="moreInfo">For More Resources, Check Out:</string>
-    <string name="moreInfoLinks">https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/guidance-documents.html
-        <br></br>https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public</string>
+    <string name="moreInfoLinks">https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/guidance-documents.html</string>
+    <string name="moreInfoLink2">https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public</string>
 </resources>
