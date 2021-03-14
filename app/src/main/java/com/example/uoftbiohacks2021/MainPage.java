@@ -62,14 +62,12 @@ public class MainPage extends AppCompatActivity {
         else {
             risk = "medium risk";
             rec = lowRisk;
-            avoid = highRisk;
+            avoid = medRisk + highRisk;
         }
 
         this.title = findViewById(R.id.WelcomeMessage);
         this.title.setText("Hello " + currentUser.getUsername() + "! Based on your current health information you are at " + risk + " for COVID-19 complications. Find out more on how you can protect yourself here and checkout some recommended activities. Be sure to let us know if there are any changes to your health status.");
-        this.recommendedActivities = findViewById(R.id.textView6);
         this.avoidedActivities = findViewById(R.id.textView7);
-        this.recommendedActivities.setText(rec);
         this.avoidedActivities.setText(avoid);
 
     }
